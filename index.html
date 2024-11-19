@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List(Notion)</title>
+    <link rel="stylesheet" href="Task2_DOM_Manipulation_and_Styling/Styling.css">
+</head>
+<body>
+    <h1>To-Do List</h1>
+    <input type="text" id="task-input" placeholder="Enter task title">
+    <input type="text" id="description-input" placeholder="Enter task description">
+    <select id="tag-input">
+        <option value="important">Important</option>
+        <option value="medium" selected>Medium</option>
+        <option value="minor">Minor</option>
+    </select>
+    <input type="text" id="user-input" placeholder="Enter user name">
+    <!-- <button onclick="addTask()">Add Task</button>
+    <button onclick="clearTasks()">Clear All Tasks</button> -->
+    <button id="add-task">Add Task</button>
+    <button id="clear-tasks">Clear All Tasks</button>
+    <div id="task-list"></div>
+    <script src="Task2_DOM_Manipulation_and_Styling/DOMManipulation.js"></script>
+    <script src="./Task3_Error_Handling/ErrorHandling.js"></script>
+    <script src="./Task4_User_Interaction/UserInteraction.js"></script>
+</body>
+</html>
